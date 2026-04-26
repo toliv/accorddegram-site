@@ -9,11 +9,14 @@ importers:
   .:
     dependencies:
       '@opennextjs/cloudflare':
-        specifier: ^1.19.1
+        specifier: ^1.19.4
         version: 1.19.4(next@16.2.3(react-dom@19.1.5(react@19.1.5))(react@19.1.5))(wrangler@4.85.0)
       next:
         specifier: 16.2.3
         version: 16.2.3(react-dom@19.1.5(react@19.1.5))(react@19.1.5)
+      postcss:
+        specifier: ^8.5.10
+        version: 8.5.10
       react:
         specifier: 19.1.5
         version: 19.1.5
@@ -22,31 +25,31 @@ importers:
         version: 19.1.5(react@19.1.5)
     devDependencies:
       '@eslint/eslintrc':
-        specifier: ^3
+        specifier: ^3.3.5
         version: 3.3.5
       '@tailwindcss/postcss':
-        specifier: ^4
+        specifier: ^4.2.4
         version: 4.2.4
       '@types/node':
-        specifier: ^20
+        specifier: ^20.19.39
         version: 20.19.39
       '@types/react':
-        specifier: ^19.1.5
+        specifier: ^19.2.14
         version: 19.2.14
       '@types/react-dom':
-        specifier: ^19.1.5
+        specifier: ^19.2.3
         version: 19.2.3(@types/react@19.2.14)
       eslint:
-        specifier: ^9
+        specifier: ^9.39.4
         version: 9.39.4(jiti@2.6.1)
       eslint-config-next:
         specifier: 15.4.6
         version: 15.4.6(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)
       tailwindcss:
-        specifier: ^4
+        specifier: ^4.2.4
         version: 4.2.4
       typescript:
-        specifier: ^5.7.4
+        specifier: ^5.9.3
         version: 5.9.3
       wrangler:
         specifier: ^4.85.0

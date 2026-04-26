@@ -18,7 +18,7 @@ export function DatesSection({ id = "dates" }: { id?: string }) {
   return (
     <section id={id} className="w-full max-w-2xl mx-auto px-4 py-12">
       <h2 className="font-mono text-2xl tracking-widest uppercase mb-8 text-center">
-        Dates
+        Upcoming Dates
       </h2>
       <ul className="flex flex-col gap-4">
         {dates.map((item, index) => (

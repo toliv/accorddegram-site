@@ -57,7 +57,7 @@ export function DecoderEffectText({ text }: { text: string }) {
 
   return (
     <h1
-      className="flex justify-center gap-[0.04em] font-mono text-[clamp(2.5rem,9vw,7rem)] tracking-[0.04em] uppercase cursor-default"
+      className="flex justify-center gap-[0.04em] font-mono text-[clamp(1.8rem,6vw,5rem)] tracking-[0.04em] uppercase cursor-default"
       aria-label={text}
       onMouseEnter={startEffect}
     >

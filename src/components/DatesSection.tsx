@@ -16,7 +16,7 @@ const dates: DateEntry[] = [
 
 export function DatesSection({ id = "dates" }: { id?: string }) {
   return (
-    <section id={id} className="w-full max-w-2xl mx-auto px-4 py-12">
+    <section id={id} className="w-full max-w-2xl mx-auto px-0 sm:px-4 py-12">
       <h2 className="font-mono text-2xl tracking-widest uppercase mb-8 text-center">
         Upcoming Dates
       </h2>
@@ -24,19 +24,19 @@ export function DatesSection({ id = "dates" }: { id?: string }) {
         {dates.map((item, index) => (
           <li
             key={index}
-            className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-8 p-4 border border-foreground/20 hover:border-foreground/60 transition-colors group"
+            className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-8 p-8 border border-foreground/20 hover:border-foreground/60 transition-colors group"
           >
-            <span className="font-mono text-sm shrink-0 w-28 text-foreground/70 group-hover:text-foreground transition-colors">
+            <span className="font-mono text-sm text-foreground/70 group-hover:text-foreground transition-colors">
               {item.date}
             </span>
             <a
               href={item.href}
-              className="font-mono text-lg tracking-widest uppercase hover:opacity-60 transition-opacity"
+              className="font-mono text-lg tracking-widest uppercase hover:opacity-60 transition-opacity break-words"
             >
               {item.title}
             </a>
             {item.venue && (
-              <span className="font-mono text-xs text-foreground/50 hidden sm:block ml-auto">
+              <span className="font-mono text-xs text-foreground/50 sm:ml-auto">
                 {item.venue}
               </span>
             )}

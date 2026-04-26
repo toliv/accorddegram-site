@@ -10,7 +10,7 @@ const splineSansMono = localFont({
 
 export const metadata: Metadata = {
 	title: "Accord de Gram",
-	description: "Music direct from Brooklyn NY",
+	description: "Beats direct from Brooklyn NY",
 };
 
 export default function RootLayout({
